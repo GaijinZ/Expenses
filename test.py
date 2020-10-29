@@ -5,7 +5,7 @@ c = conn.cursor()
 
 
 def usun():
-    query = "DELETE FROM cel"
+    query = "DELETE FROM zakupy"
     c.execute(query)
     conn.commit()
 
